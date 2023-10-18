@@ -1,0 +1,19 @@
+{
+    "swaggerDefinition": {
+      "info": {
+        "title": "User API",
+        "version": "1.0.0",
+        "description": "User API documentation",
+        "contact": {
+          "name": "Kamal Patel"
+        },
+        "servers": [
+          "http://localhost:3000"
+        ]
+      }
+    },
+    "apis": [
+      "index.js",
+      "./routes/*.js"
+    ]
+  }
